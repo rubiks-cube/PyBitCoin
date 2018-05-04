@@ -12,7 +12,7 @@ class Node:
     """
     def __init__(self):
         # self.id = str(uuid4())
-        self.id = 'MAX'
+        self.id = 'Abhi'
         self.blockchain = Blockchain(self.id)
 
     def get_transaction_value(self):
